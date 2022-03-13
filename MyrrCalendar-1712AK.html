@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Yazatli Calendar</title>
+<title>Myrrian Calendar</title>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <style>
@@ -76,7 +76,6 @@
 Days of the Year
 
 <h1>
-	<div><span id="currentAFHYear"></span> AFH (After Fall of Heaven)</div>
 	<div><span id="currentAKYear"></span> A.K. (After Khanmor)</div>
 	<div><span id="currentGEYear"></span> G.E. (Galvanic Era)</div>	
 </h1>
@@ -273,7 +272,6 @@ getYearStart();
 			};
 		}
 	};
-	document.getElementById('currentAFHYear').innerHTML = currentYear;
 	document.getElementById('currentAKYear').innerHTML = currentYear - 5872; //AFH year Khammor receded
 	document.getElementById('currentGEYear').innerHTML = currentYear - 7559; //AFH year Watcher waged war
 });
